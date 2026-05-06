@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xargs sed *)",
+      "Bash(xcodebuild -project GravityMah.xcodeproj -scheme GravityMah -destination 'platform=iOS Simulator,name=iPhone 16' -configuration Debug build)",
+      "Bash(xcodebuild -project GravityMah.xcodeproj -scheme GravityMah -destination 'platform=iOS Simulator,name=iPhone 17,OS=26.4.1' -configuration Debug build)",
+      "Bash(xcodebuild -project GravityMah.xcodeproj -scheme GravityMah -destination 'platform=iOS Simulator,name=iPhone 16,OS=latest' -configuration Debug build)",
+      "Bash(xcodebuild -project GravityMah.xcodeproj -scheme GravityMah -destination 'platform=iOS Simulator,name=iPhone 17 Pro Max,OS=latest' -configuration Debug build)",
+      "Bash(sips -z 400 200 /tmp/gs3.png --out /tmp/gs3_small.png)",
+      "Bash(kill %1)",
+      "Bash(kill %2)",
+      "Bash(sips -z 956 440 /tmp/gs_debug.png --out /tmp/gs_debug_fit.png)",
+      "Bash(xcodebuild -scheme GravityMah -destination 'platform=iOS Simulator,id=E1C88709-154C-4B2F-8115-D1A6FA169A7B' build)",
+      "Bash(/usr/libexec/PlistBuddy -c \"Print CFBundleIdentifier\" /Users/hades/Library/Developer/Xcode/DerivedData/GravityMah-abnqdsjhcgosndeapdfxnvpiyrwo/Build/Products/Debug-iphonesimulator/GravityMah.app/Info.plist)",
+      "Bash(osascript -e ' *)"
+    ]
+  }
+}

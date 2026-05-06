@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(osascript *)",
+      "Bash(xcodebuild -scheme GravityMah -destination 'generic/platform=iOS' -configuration Debug build)",
+      "Bash(grep -v \"^$\")"
+    ]
+  }
+}
